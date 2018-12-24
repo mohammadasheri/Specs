@@ -1,4 +1,4 @@
-# add Credentials and save them is git 
+# add Credentials and save them in git 
 
 ```
 git config --global user.email "mhm.asheri@gmail.com"
