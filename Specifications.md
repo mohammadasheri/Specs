@@ -21,3 +21,7 @@ sudo apt-get install network-manager-l2tp-gnome
 ```
 ssh -Y stream@172.18.131.130
 ```
+## Virtual env
+```
+source ~/.venv3.5/bin/activate
+```
