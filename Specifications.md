@@ -6,11 +6,18 @@
   sudo service network-manager restart
 ```
 
-## L2TP Connection
-# Install L2TP
+# L2TP Connection
+## Install L2TP
 ```
 sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp  
 sudo apt-get update  
 sudo apt-get install network-manager-l2tp
 sudo apt-get install network-manager-l2tp-gnome
+```
+
+##Create VPN
+?????
+## SSH to stream
+```
+ssh -Y stream@172.18.131.130
 ```
