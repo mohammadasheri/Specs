@@ -29,6 +29,6 @@ source ~/.venv3.5/bin/activate
 ```
 ## Openconnect VPN
 ```
-ubuntu 16.04 : alias vpn="echo 'MasouD' | sudo openconnect 162.223.88.26:8443 -u masoud --no-cert-check --passwd-on-stdin"
+ubuntu 16.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mohammad --no-cert-check --passwd-on-stdin"
 ubuntu 16.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mohammad --servercert sha256:f4ecc97157e733a700363363d24dae961a914b752b704b3de02e324ba77b9ce8 --passwd-on-stdin"
 ```
