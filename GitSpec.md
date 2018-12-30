@@ -20,4 +20,5 @@ ssh-add ~/.ssh/id_rsa
 ```
 ## copy generated ssh key from system
 ```
+gedit id_rsa.pub
 ```
