@@ -23,3 +23,8 @@ ssh-add ~/.ssh/id_rsa
 cd ~/.ssh
 gedit id_rsa.pub
 ```
+
+## reset the origin master to a previous commit
+```
+git push origin +91299e1442356d550cbb77a49a80a34df942d90b^:master
+```
