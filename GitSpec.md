@@ -28,3 +28,8 @@ gedit id_rsa.pub
 ```
 git push origin +91299e1442356d550cbb77a49a80a34df942d90b^:master
 ```
+
+## cherry-pick
+```
+git cherry-pick c90fd66
+```
