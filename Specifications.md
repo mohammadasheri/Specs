@@ -8,21 +8,6 @@
   sudo service network-manager restart
 ```
 
-## L2TP Connection
-## Install L2TP
-```
-sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp  
-sudo apt-get update  
-sudo apt-get install network-manager-l2tp
-sudo apt-get install network-manager-l2tp-gnome
-```
-
-##Create VPN
-?????
-## Virtual env
-```
-source ~/.venv3.5/bin/activate
-```
 ## Openconnect VPN
 ```
 ubuntu 16.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mohammad --no-cert-check --passwd-on-stdin"
