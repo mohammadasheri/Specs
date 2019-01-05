@@ -33,3 +33,7 @@ git push origin +91299e1442356d550cbb77a49a80a34df942d90b^:master
 ```
 git cherry-pick c90fd66
 ```
+## change the url for a remote git repository
+```
+git remote set-url origin git://new.url.here
+```
