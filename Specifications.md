@@ -27,3 +27,14 @@ ubuntu 18.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mo
 10- Run :exit
 * Reference : https://davidzych.com/install-windows-10-from-a-usb-flash-drive/
 ```
+## install python 3.6
+```
+sudo apt build-dep python3.5
+cd /tmp
+wget https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tar.xz
+sudo tar -xvf Python-3.6.*.tar.xz
+cd Python-3.6.*
+sudo ./configure
+sudo make -j4
+sudo make altinstall
+```
