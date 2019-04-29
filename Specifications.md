@@ -51,3 +51,8 @@ sudo apt purge mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server-
 sudo apt update && sudo apt dist-upgrade && sudo apt autoremove && sudo apt -f install
 sudo apt install mysql-server
 ```
+
+## share file using scp in a network
+```
+scp /home/mohammad/Downloads/Rick.And.Morty.S01E01.1080p.BDRip.x265.Pseudo.BLAXUP.COM.mkv amir@192.168.1.168:
+```
