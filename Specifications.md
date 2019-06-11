@@ -56,3 +56,8 @@ sudo apt install mysql-server
 ```
 scp /home/mohammad/Downloads/Rick.And.Morty.S01E01.1080p.BDRip.x265.Pseudo.BLAXUP.COM.mkv amir@192.168.1.168:
 ```
+## sahab gmail
+```
+mindifyapp@gmail.com
+ABCabc123!@#
+```
