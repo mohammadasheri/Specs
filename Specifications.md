@@ -72,7 +72,7 @@ VBoxManage setextradata "macos" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRea
 ``
 ## find ssh1 and ssha256 key for android
 ```
-keytool -list -v -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jksDC
+keytool -list -v -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jks
 ```
 ## delete alias from key store for android
 ```
