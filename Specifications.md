@@ -74,3 +74,7 @@ VBoxManage setextradata "macos" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRea
 ```
 keytool -list -v -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jksDC
 ```
+## delete alias from key store for android
+```
+keytool -delete -alias sendtone -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jks
+```
