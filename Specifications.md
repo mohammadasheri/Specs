@@ -70,4 +70,7 @@ VBoxManage setextradata "macos" "VBoxInternal/Devices/efi/0/Config/DmiBoardProdu
 VBoxManage setextradata "macos" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"
 VBoxManage setextradata "macos" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 1
 ``
-
+## find ssh1 and ssha256 key for android
+```
+keytool -list -v -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jksDC
+```
