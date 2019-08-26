@@ -26,7 +26,8 @@ gedit id_rsa.pub
 
 ## Reset the origin master to a previous commit
 ```
-git push origin +91299e1442356d550cbb77a49a80a34df942d90b^:master
+git push origin +91299e1442356d550cbb77a49a80a34df942d90b^:master : one commit
+git push origin +91299e1442356d550cbb77a49a80a34df942d90b~3:master : more than one commit
 ```
 
 ## Cherry-pick
