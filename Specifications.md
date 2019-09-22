@@ -79,4 +79,6 @@ keytool -list -v -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jks
 keytool -delete -alias sendtone -keystore /home/mohammad/Downloads/sahabpardazAndroidKey.jks
 ```
 ##sign with google play key
+```
 keytool -importcert -file upload_cert.der -keystore /home/mohammad/Desktop/sahab/sahabpardazAndroidKey.jks
+```
