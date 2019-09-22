@@ -3,7 +3,7 @@
 ## DNS SERVER 
 ```
   sudo subl /etc/dhcp/dhclient.conf
-  supersede domain-name-servers 8.8.8.8; # replace the IP with wanted DNS server
+  supersede domain-name-servers 8.8.8.8;
   sudo service networking restart
   sudo service network-manager restart
 ```
