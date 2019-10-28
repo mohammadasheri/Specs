@@ -13,7 +13,23 @@
 ubuntu 16.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mohammad --no-cert-check --passwd-on-stdin"
 ubuntu 18.04 : alias vpn="echo '123' | sudo openconnect 162.223.88.26:8443 -u mohammad --servercert sha256:f4ecc97157e733a700363363d24dae961a914b752b704b3de02e324ba77b9ce8 --passwd-on-stdin"
 ```
-note: remove sudo if want to use it for specific user
+note: remove sudo if want to use it for specific user.
+
+If you want to crate a shortcut icon for this you can use this command:
+```
+sudo nano /usr/share/applications/Vpn.desktop
+```
+This will open an editor and paste it there:
+```
+[Desktop Entry]
+Name=Vpn
+Exec=bash -c 'exec bash -i <<<"vpn"'
+Icon=/home/mohammad/Pictures/icon.png
+Terminal=true
+Type=Application
+Categories=Utility;Application;
+```
+Change <b>Icon</b> with your favoried icon.
 ## format bootabled disk on windows os
 ```
 1- Hit Windows Key, type cmd and hit Ctrl+Shift+Enter. This will force it to open as admin.
