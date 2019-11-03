@@ -99,3 +99,18 @@ keytool -delete -alias sendtone -keystore /home/mohammad/Downloads/sahabpardazAn
 ```
 keytool -importcert -file upload_cert.der -keystore /home/mohammad/Desktop/sahab/sahabpardazAndroidKey.jks
 ```
+
+## Resolve conflict of Ubuntu 18 keyshortcuts with Intellij
+For example we resolve Ctrl+Alt+L key conflict.
+Use this command to find all shortcuts ends with l: 
+```
+gsettings list-recursively | grep -i \>l\'
+```
+Then the result is this:
+```
+org.gnome.settings-daemon.plugins.media-keys screensaver '<Control><Alt>l'
+```
+Then use this command to set "screensaver" keyshortcut to nothing:
+```
+gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver []
+```
