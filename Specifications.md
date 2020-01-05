@@ -120,3 +120,8 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver []
 sudo usermod -a -G dialout <user>
 sudo usermod -a -G tty <user>
 ```
+
+# kill spersific process on port
+```
+sudo kill -9 `sudo lsof -t -i:9001`
+```
