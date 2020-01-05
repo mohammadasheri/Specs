@@ -114,3 +114,9 @@ Then use this command to set "screensaver" keyshortcut to nothing:
 ```
 gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver []
 ```
+
+# open port
+```
+sudo usermod -a -G dialout <user>
+sudo usermod -a -G tty <user>
+```
