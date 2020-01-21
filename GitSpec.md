@@ -8,8 +8,8 @@ git config credential.helper store
 ```
 ## Generate new ssh key
 ```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+ssh-keygen -t rsa -b 4096 -C "mhm.asheri@gmail.com"
+Enter a file in which to save the key (/home/mohammad/.ssh/id_rsa): [Press enter]
 Enter passphrase (empty for no passphrase): [Type a passphrase]
 Enter same passphrase again: [Type passphrase again]
 ```
