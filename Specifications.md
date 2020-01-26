@@ -123,5 +123,5 @@ sudo usermod -a -G tty <user>
 
 # kill spersific process on port
 ```
-sudo kill -9 `sudo lsof -t -i:9001`
+sudo kill -9 `sudo lsof -t -i:80`
 ```
