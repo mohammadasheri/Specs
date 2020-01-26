@@ -16,3 +16,9 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+## run service
+```
+systemctl daemon-reload
+systemctl start name.service
+systemctl stop application.service
+```
