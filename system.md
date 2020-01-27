@@ -22,3 +22,7 @@ systemctl daemon-reload
 systemctl start name.service
 systemctl stop application.service
 ```
+## list active servers
+```
+netstat -pnlt
+```
