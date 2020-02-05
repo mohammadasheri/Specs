@@ -26,3 +26,12 @@ systemctl stop application.service
 ```
 netstat -pnlt
 ```
+## list system media
+```
+lsblk
+```
+
+## copy files with rsync
+```
+rsync -avzh ubt16@192.168.1.106:/home/ubt16/arsheh_backend /tmp
+```
