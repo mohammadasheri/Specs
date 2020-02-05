@@ -35,3 +35,8 @@ lsblk
 ```
 rsync -avzh ubt16@192.168.1.106:/home/ubt16/arsheh_backend /tmp
 ```
+## print directory size
+```
+du -sh
+```
+
