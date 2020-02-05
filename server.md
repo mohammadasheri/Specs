@@ -6,8 +6,8 @@ this is an repository for config server
 ```
 auto ens160
 iface ens160 inet static
-    address   46.224.2.67
-    gateway   46.224.2.65
-    netmask   255.255.255.248
+    address   x.x.x.x
+    gateway   x.x.x.x
+    netmask   x.x.x.x
     dns-nameserver 8.8.8.8
 ````
