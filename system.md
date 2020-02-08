@@ -39,4 +39,7 @@ rsync -avzh ubt16@192.168.1.106:/home/ubt16/arsheh_backend /tmp
 ```
 du -sh
 ```
-
+##
+```
+sudo apt install dstat ncdu pigz unzip pv logtop
+```
