@@ -43,3 +43,8 @@ du -sh
 ```
 sudo apt install dstat ncdu pigz unzip pv logtop
 ```
+
+## database
+```
+alter table app_version CONVERT TO CHARACTER SET utf8
+```
