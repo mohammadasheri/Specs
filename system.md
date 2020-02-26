@@ -48,5 +48,8 @@ sudo apt install dstat ncdu pigz unzip pv logtop
 ```
 alter table app_version CONVERT TO CHARACTER SET utf8
 show create table song;
-
+```
+## db collate
+```
+CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
