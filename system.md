@@ -51,5 +51,5 @@ show create table song;
 ```
 ## db collate
 ```
-CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE arshehdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
