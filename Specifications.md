@@ -125,3 +125,24 @@ sudo usermod -a -G tty <user>
 ```
 sudo kill -9 `sudo lsof -t -i:80`
 ```
+
+#collate mysql
+[mysqld]
+#
+# * Basic Settings
+#
+user            = mysql
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+port            = 3306
+basedir         = /usr
+datadir         = /var/lib/mysql
+tmpdir          = /tmp
+lc_messages_dir = /usr/share/mysql
+lc_messages     = en_US
+skip-external-locking
+#skip-name-resolve
+character-set-client-handshake = FALSE
+character-set-server = utf8
+collation-server = utf8_general_ci
+[10:37 PM] bayad zire [mysqld] bashe
