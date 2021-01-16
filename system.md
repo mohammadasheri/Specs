@@ -21,6 +21,7 @@ WantedBy=multi-user.target
 systemctl daemon-reload
 systemctl start name.service
 systemctl stop application.service
+systemctl enable name
 ```
 ## list active servers
 ```
